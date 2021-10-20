@@ -1,0 +1,15 @@
+import turtle as t
+t.setup(300,600,0,0)
+t.pensize(2)
+t.colormode(255)
+t.color((0,255,0),(255,0,0))
+t.penup()
+t.goto(-200,0)
+t.pendown()
+t.speed(10)
+t.begin_fill()
+for i in range(36):
+    t.fd(400)
+    t.left(170)
+t.end_fill()
+t.done()

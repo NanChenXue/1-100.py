@@ -1,0 +1,22 @@
+import turtle as t
+t.setup(800,600,100,100)
+#t.scrensize(1000,800,"white")
+t.penup()
+t.goto(-300,0)
+t.pendown()
+#t.pencolor(0.2,0.4,0.5)
+t.pencolor("red")
+t.pensize(20)#单位像素
+t.seth(-30)
+for i in range(4):
+    t.circle(50,60)
+    t.circle(-50,60)
+t.left(30)
+t.fd(60)
+t.circle(20,180)
+t.fd(40)
+t.penup()
+t.goto(300,-100)
+t.pendown()
+t.pencolor("green")
+t.write("蟒蛇完毕",align="center",font=('宋体',14,'bold'))
